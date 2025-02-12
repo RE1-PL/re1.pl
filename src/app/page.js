@@ -9,6 +9,9 @@ export default function Home() {
           <li><a href="https://github.re1.pl/" target="_blank" rel="noopener noreferrer">github</a></li>
           <li><a href="https://jenkins.re1.pl/">jenkins ci/cd admin</a></li>
           <li>contact email <a href="mailto:ntds@re1.pl">ntds@re1.pl</a></li>
+          <li class="text-xl">lan users:</li>
+            <li><a href="http://192.168.0.12:8080/">jenkins ci/cd local N#1</a></li>
+            <li><a href="https://192.168.0.12:9443/">docker local N#1</a></li>
           <li>&copy; 2025</li>
         </ul>
       </main>
