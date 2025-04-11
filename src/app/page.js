@@ -7,7 +7,6 @@ export default function Home() {
           <li><a href="https://status.re1.pl/">statuspage</a></li>
           <li><a href="https://blog.re1.pl/">blog</a></li>
           <li><a href="https://github.re1.pl/" target="_blank" rel="noopener noreferrer">github</a></li>
-          <li><a href="https://jenkins.re1.pl/">jenkins ci/cd admin</a></li>
           <li>contact email <a href="mailto:ntds@re1.pl">ntds@re1.pl</a></li>
           <li>&copy; 2025</li>
         </ul>
