@@ -15,6 +15,11 @@ const geistMono = localFont({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>RE1.PL</title>
+        <meta name="description" content="Important links of RE1" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
