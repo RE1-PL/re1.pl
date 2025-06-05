@@ -1,16 +1,4 @@
-import localFont from "next/font/local";
 import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
 
 export default function RootLayout({ children }) {
   return (
@@ -18,10 +6,14 @@ export default function RootLayout({ children }) {
       <head>
         <meta charset="UTF-8" />
         <title>RE1.PL</title>
-        <meta name="description" content="Important links of RE1" />
+        <meta name="description" content="RE1.PL" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+          rel="stylesheet"
+        />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`font-jetbrains antialiased`}
       >
         {children}
       </body>
