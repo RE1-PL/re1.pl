@@ -12,9 +12,9 @@ export default function Home() {
           alt="logo"
           />
         <ul className="mt-[25px]">
-          <li><a href="https://account.re1.pl">manage account</a></li>
-          <li><a href="https://cloud.re1.pl/iot">iot dashboard <span className="text-red-600"></span></a></li>
-          <li><a href="https://blog.re1.pl/">blog <span className="text-red-600">[offline]</span></a></li>
+          <li><a href="https://account.re1.pl">manage account <span className="text-red-600">[offline]</span></a></li>
+          <li><a href="https://cloud.re1.pl/iot">iot dashboard <span className="text-red-600">[offline]</span></a></li>
+          <li><a href="https://524531.xyz/" className="text-blue-600" target="_blank">ntds's blog <span className="text-blue-600"></span></a></li>
           <div className="mb-[25px]"></div>
           <li><a href="https://jenkins.524531.xyz/login" target="_blank" rel="noopener noreferrer">jenkins <span className="text-green-600"></span></a></li>
           <li><a href="https://status.re1.pl/">statuspage</a></li>
