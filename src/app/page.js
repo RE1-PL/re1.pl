@@ -14,7 +14,6 @@ export default function Home() {
         <ul className="mt-[25px]">
           <li><a href="https://account.re1.pl">manage account <span className="text-red-600">[offline]</span></a></li>
           <li><a href="https://cloud.re1.pl/iot">iot dashboard <span className="text-red-600">[offline]</span></a></li>
-          <li><a href="https://524531.xyz/" className="text-blue-600" target="_blank">ntds's blog <span className="text-blue-600"></span></a></li>
           <div className="mb-[25px]"></div>
           <li><a href="https://jenkins.524531.xyz/login" target="_blank" rel="noopener noreferrer">jenkins <span className="text-green-600"></span></a></li>
           <li><a href="https://status.re1.pl/">statuspage</a></li>
@@ -23,6 +22,7 @@ export default function Home() {
           <li className="text-lg">Contact:</li>
           <li><a href="mailto:ntds@re1.pl">ntds@re1.pl</a></li>
           <li><a href="https://github.com/ntds">github.com/ntds</a></li>
+          <li><a href="https://524531.xyz/" className="text-blue-600" target="_blank">ntds's blog <span className="text-blue-600"></span></a></li>
           <li className="text-xs">&copy; 2025</li>
         </ul>
       </main>
