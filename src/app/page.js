@@ -15,6 +15,8 @@ export default function Home() {
           <li><a href="https://account.re1.pl">manage account <span className="text-red-600">[offline]</span></a></li>
           <li><a href="https://cloud.re1.pl/iot">iot dashboard <span className="text-red-600">[offline]</span></a></li>
           <div className="mb-[25px]"></div>
+          <li><a href="https://iot-echo.re1.pl/iot">request logging api</a></li>
+          <div className="mb-[25px]"></div>
           <li><a href="https://jenkins.524531.xyz/login" target="_blank" rel="noopener noreferrer">jenkins <span className="text-green-600"></span></a></li>
           <li><a href="https://status.re1.pl/">statuspage</a></li>
           <li><a href="https://github.re1.pl/" target="_blank" rel="noopener noreferrer">github</a></li>
